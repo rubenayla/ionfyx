@@ -1,0 +1,22 @@
+{
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatex_to_root",
+            "command": "pdflatex",
+            "args": [
+                "-jobname=ionfyx_report",
+                "-output-directory=%WORKSPACE_FOLDER%",
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "Compile to Root (ionfyx_report)",
+            "tools": [
+                "pdflatex_to_root"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipe.default": "Compile to Root (ionfyx_report)"
+}
