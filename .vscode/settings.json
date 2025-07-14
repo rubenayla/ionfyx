@@ -1,10 +1,19 @@
 {
     "latex-workshop.latex.tools": [
         {
-            "name": "pdflatex_to_root",
+            "name": "pdflatex_to_root_english",
             "command": "pdflatex",
             "args": [
                 "-jobname=ionfyx_report",
+                "-output-directory=%WORKSPACE_FOLDER%",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "pdflatex_to_root_spanish",
+            "command": "pdflatex",
+            "args": [
+                "-jobname=informe_ionfyx",
                 "-output-directory=%WORKSPACE_FOLDER%",
                 "%DOCFILE%"
             ]
@@ -14,7 +23,13 @@
         {
             "name": "Compile to Root (ionfyx_report)",
             "tools": [
-                "pdflatex_to_root"
+                "pdflatex_to_root_english"
+            ]
+        },
+        {
+            "name": "Compile to Root (informe_ionfyx)",
+            "tools": [
+                "pdflatex_to_root_spanish"
             ]
         }
     ],
