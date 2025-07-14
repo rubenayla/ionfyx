@@ -37,3 +37,6 @@ ehthumbs.db
 _build/
 latex.out/
 latex-temp/
+
+# More
+.fuse_hidden*

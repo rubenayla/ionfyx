@@ -1,0 +1,2 @@
+- use a bib.bib file for references?
+- add back: \item The Science Behind Coolvio® Patented Fabric Technology: {\small\url{https://coolvio.com/pages/light_therapy_for_dogs}}
