@@ -12,7 +12,7 @@ To generate the PDF documents from the LaTeX source files, follow these steps in
 
 2.  **Open the Command Palette:** Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
 
-3.  **Search for and select "LaTeX Workshop: Build LaTeX project".**
+3.  **Search for and select "LaTeX Workshop: Build with recipe".**
 
 4.  **Choose the appropriate build recipe:**
     *   For the English PDF (`ionfyx_report.pdf`): Select "Compile to Root (ionfyx_report)"
