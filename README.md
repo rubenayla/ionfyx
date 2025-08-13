@@ -1,6 +1,11 @@
 # Ionfyx Project
 
-This repository contains a credibility analysis of Ionfyx's infrared pain-relief claims, available in both [English](ionfyx_report.pdf) and [Spanish](informe_ionfyx.pdf).
+This repository contains a credibility analysis of Ionfyx's infrared pain-relief claims.
+
+## 📄 Analysis Reports
+
+- **[🇺🇸 English Report](ionfyx_report.pdf)** - `ionfyx_report.pdf`
+- **[🇪🇸 Spanish Report](informe_ionfyx.pdf)** - `informe_ionfyx.pdf`
 
 ## Generating PDFs from LaTeX Documents
 
@@ -20,7 +25,3 @@ To generate the PDF documents from the LaTeX source files, follow these steps in
 
 This will compile the `.tex` file and output the PDF directly into the root of this project directory.
 
-## Generated PDF Documents
-
-*   [English Report: ionfyx_report.pdf](ionfyx_report.pdf)
-*   [Spanish Report: informe_ionfyx.pdf](informe_ionfyx.pdf)
