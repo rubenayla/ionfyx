@@ -17,18 +17,38 @@
                 "-output-directory=%WORKSPACE_FOLDER%",
                 "%DOCFILE%"
             ]
+        },
+        {
+            "name": "biber_english",
+            "command": "biber",
+            "args": [
+                "%WORKSPACE_FOLDER%/ionfyx_report"
+            ]
+        },
+        {
+            "name": "biber_spanish",
+            "command": "biber",
+            "args": [
+                "%WORKSPACE_FOLDER%/informe_ionfyx"
+            ]
         }
     ],
     "latex-workshop.latex.recipes": [
         {
             "name": "Compile to Root (ionfyx_report)",
             "tools": [
+                "pdflatex_to_root_english",
+                "biber_english",
+                "pdflatex_to_root_english",
                 "pdflatex_to_root_english"
             ]
         },
         {
             "name": "Compile to Root (informe_ionfyx)",
             "tools": [
+                "pdflatex_to_root_spanish",
+                "biber_spanish",
+                "pdflatex_to_root_spanish",
                 "pdflatex_to_root_spanish"
             ]
         }

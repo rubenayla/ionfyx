@@ -26,6 +26,7 @@
 ################################################################################
 ehthumbs.db
 # VS Code
+# Keep the files so the Build recipes work
 
 # TeXstudio & TeXmaker
 *.synctex(busy)*
